@@ -5,7 +5,7 @@ Rails.application.routes.draw do
   get("/square/results", {:controller=>"home", :action=>"square_results"})
 
   get("/square_root/new", {:controller=>"home", :action=>"square_root_new"})
-  get("/square_root/results", {:controller=>"home", :action=>"/square_root_results"})
+  get("/square_root/results", {:controller=>"home", :action=>"square_root_results"})
 
   get("/payment/new", {:controller=>"home", :action=>"payment_new"})
   get("/payment/results", {:controller=>"home", :action=>"payment_results"})
